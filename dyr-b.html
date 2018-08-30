@@ -11,6 +11,8 @@
 <body>
 
 
+    <div class="om"></div>
+
     <script>
         let dyr = {
             "navn": "elefant",
@@ -18,8 +20,12 @@
             "levested": "indien"
         };
 
-        console.log("en " + dyr.navn + "er et " + dyr.type + ", som lever i " + dyr.levested)
+        console.log("en " + dyr.navn + "er et " + dyr.type + ", som lever i " + dyr.levested);
+        document.querySelector(".om").textContent = "en " + dyr.navn + "er et " + dyr.type + " , som lever i " + dyr.levested;
     </script>
+
+
+
 
 
 
